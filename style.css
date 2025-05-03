@@ -1,0 +1,52 @@
+body {
+      background-color: #fff0f5;
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      padding: 20px;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      width: 30%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 10px;
+    }
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 2px solid #ff99cc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #ff99cc;
+      color: white;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+  .btn {
+      background-color: #ff99cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+  
+    }
+    .btn:hover {
+      background-color: #ff66b2;
+    }
